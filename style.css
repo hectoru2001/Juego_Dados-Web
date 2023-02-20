@@ -1,0 +1,67 @@
+body{
+  background-color: antiquewhite;
+}
+
+.title{
+  background-color: antiquewhite;
+  margin-top: -5%;
+  text-align: center;
+  font-size: 45px;
+  height: 200px;
+}
+
+.juegoCont{
+  background-color:rgb(238, 238, 238);
+  border: 5px solid coral;
+  margin-inline: 200px;
+  height: 400px;
+  margin-top: -5%;
+}
+
+.juegoCont p{
+  font-family: 'Franklin Gothic Medium';
+  font-size: large;
+}
+
+.conteImg{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.conteImg #imageAl, #imageAl1{
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.botonCont{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.boton{
+  background-color: #3962c3;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.boton:hover {
+  background-color: #092197;
+}
+
+p{
+  text-align: center;
+  font-family:fantasy;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
